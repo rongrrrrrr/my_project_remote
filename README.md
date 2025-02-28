@@ -29,7 +29,7 @@ cd my_project_remote
 Ensure you have Python installed. You can set up a virtual environment (optional):
 
 ```bash
-python -m venv env
+python3 -m venv env
 source env/bin/activate  # On macOS/Linux
 env\Scripts\activate  # On Windows
 ```
@@ -44,7 +44,7 @@ pip install numpy matplotlib
 Execute the Python script to generate and display the checkerboard pattern:
 
 ```bash
-python checkerboard.py
+python3 checkerboard.py
 ```
 
 ### 4. Modify the Colormap
@@ -52,7 +52,7 @@ Switch to the `change-colormap` branch and run the updated script with a differe
 
 ```bash
 git checkout change-colormap
-python checkerboard.py
+python3 checkerboard.py
 ```
 
 ### Author
